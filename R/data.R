@@ -1,0 +1,28 @@
+#' @title Unsecured Personal Loans (UPLs)
+#' 
+#' @description 
+#' This dataset contains all the relevant information collected at the time of 
+#' loan application, as well as some credit bureau data.
+#' 
+#' @format A data frame with 7250 rows and 17 variables:
+#' \describe{
+#'      \item{purpose}{0 Standard Credit Card. 1 Balance Transfer.}
+#'      \item{age}{Applicant age (in years).}
+#'      \item{marital}{1 if applicant is married.}
+#'      \item{employment}{1 Employed Full Time. 2 Employed Part time. 3 Self Employed. 4 Temporary Employment. 5 Homemaker. 6 Retired.}
+#'      \item{annual_income}{Annual Gross Income in British Pounds.}
+#'      \item{debt_to_income}{Ratio of current debt to annual income.}
+#'      \item{market_value}{Market value of property.}
+#'      \item{own_property}{1 if applicant is a property owner.}
+#'      \item{late_repayments}{1 if applicant delayed any debt repayment in the past year.}
+#'      \item{repossess}{1 if applicant has had his/her properties repossessed in the past.}
+#'      \item{conviction}{1 if applicant has ever been convicted.}
+#'      \item{bankruptcy}{1 if applicant has declared bankruptcy or made Individual Voluntary Arrangements.}
+#'      \item{unspent_convictions}{1 if applicant has unspent convictions.}
+#'      \item{credit_applications}{Number of applications for credit in the past 12 months.}
+#'      \item{credit_line_age}{Age of longest credit line (in months).}
+#'      \item{exist_customer}{1 if applicant is an existing customer.}
+#'      \item{bad}{1 Bad customer. 0 Good customer. A bad customer is someone who has missed three or more payments during the first year of the loan.}
+#' }
+#' 
+"upl"
